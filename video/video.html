@@ -28,14 +28,16 @@
         　document.getElementById("MovieShow2").height=234;
         }}
         </script>
-        <video id="MovieShow2" width="360" height="270" controls>
-        <source src="https://drive.google.com/file/d/1-HQfet_bocMyBFoyE6Vyotxd1lIckoH0/preview" type="video/ogg">
+        <br><br>
+        <video id="MovieShow2" width="360" height="270" controls poster="pic/Aventyr_easy.jpg">
+        <source src="https://drive.google.com/file/d/1-HQfet_bocMyBFoyE6Vyotxd1lIckoH0/preview" allow="autoplay">
         您的瀏覽器不支援此 HTML5 影片標籤
         </video>
         <br><br>
+        <input type="button" value="開始播放" onclick="Control('start');">
+        <input type="button" value="暫停播放" onclick="Control('stop');">
+        <br><br>
         <input type="button" value="播放器變大" onclick="Size('big');">
         <input type="button" value="播放器變小" onclick="Size('small');">
-    <video id="movie" preload controls loop poster="pic/Aventyr_easy.jpg">
-    </video>
 </body>
 </html>
