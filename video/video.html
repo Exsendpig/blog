@@ -27,6 +27,12 @@
         　document.getElementById("MovieShow2").width=260;
         　document.getElementById("MovieShow2").height=234;
         }}
+        function Control(x){
+            if(x=='start'){
+　              document.getElementById("MovieShow2").play();
+            }else if(x=='stop'){
+　              document.getElementById("MovieShow2").pause();
+            }}
         </script>
         <br><br>
         <video id="MovieShow2" width="360" height="270" controls poster="pic/Aventyr_easy.jpg" preload="metadata">
